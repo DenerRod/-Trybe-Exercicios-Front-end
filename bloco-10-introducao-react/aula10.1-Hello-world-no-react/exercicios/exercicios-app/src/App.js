@@ -12,7 +12,7 @@ const compromissos = ['lavar o carro', 'arrumar o quarto', 'lavar a louça', 'le
 class App extends React.Component {
   render() {
     return (
-      <ul>{compromissos.map((item) => Task(item))}</ul>
+      <ul className="test" >{compromissos.map((item) => Task(item))}</ul>
     );
   }
 }
